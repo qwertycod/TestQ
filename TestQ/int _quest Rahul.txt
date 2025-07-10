@@ -1,0 +1,18 @@
+apti, 
+- core - array/string - replace
+session - 2 - mcq on core - 50 ques, react, .net
+session - 3 - coding - 2 ques - 50 min 
+session - 4 - tech 
+1 - list - create own list, 
+class - array - addMethod , removeMethod, method - Func (string, bool)
+2 - caching - redis, threading
+3 - design pattern
+4 - DP - type, transient, scoped, singleton
+5 - linear search, binary search , complexity
+6 - microservices architechture 
+
+
+---------------------
+Nagarro 
+What is fork
+predicate

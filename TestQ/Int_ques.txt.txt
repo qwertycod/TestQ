@@ -1,0 +1,171 @@
+﻿
+=>
+// M1,M2, M3, M4 are void async method, each take 2 seconds.
+// What will be the console output .
+async Main(){
+	Console.Write("a");
+	await Starter();
+	
+	Console.Write("b");
+	
+	Finisher();
+	
+	Console.Write("e");
+	
+}
+
+async Starter(){
+	await M1()
+	await M2()
+	Console.Write("c");
+}
+
+async Finisher(){
+	
+	await M3()
+	await M4()
+	Console.Write("d");	
+}
+
+
+
+
+Output should be aaa, ccc, bbb, eee, ddd
+
+-----------------------
+
+=> create a method in MVC web api, which return hard coded student data( a object of Student), assume that we already have a class Student with Name and Age properties.
+Create object of Student and return it in Json format.
+
+
+=> write a program to check if there is a comma (,) at the end of a string, and if its present at the end then remove this last comma (,) only, from the string,
+not all the commas. (Program is to be written without using the inbuild Trim() method )
+
+s = "aabbcc,dd,ee,"
+
+Output should be :  "aabbcc,dd,ee"
+
+Don not use any inbuilt function.
+	
+=>
+	Input - 4
+
+	Output -
+
+	1
+	2 3 
+	4 5 6 
+	7 8 9 10
+
+=>
+	Input - 4 
+	Output - 
+
+	4 4 4 4
+	3 3 3
+	2 2
+	1
+
+
+=> use of static class
+
+=> var obj = new List<IStudent>();
+	
+=>
+public int[] getLastEelementOfArray(int[] arr, n) {
+	// your code here
+}
+
+getLastEelementOfArray([1, 3, 5, -1], 3)
+
+Output should be  [3,5,-1], it contains the last 3 elements from the array
+
+=> Reference type and value type
+
+=> IEnumberable<Student> students = new // your code here
+
+=> Get json data from MVC method in net core
+
+=>
+<div id="div1">
+	<h1>
+	<h1>
+	<p  data-name="a1" class = "p1">
+		<p class ="p2">
+		</p>
+	</p>
+	<p class="p1">
+		some text
+	</p>
+	<p>
+</div>
+
+
+jQuery/ javascript / React
+
+->	Add class 'p2' on all the elements which are having class 'p1'
+
+->  replace all the elements with class 'p1' to text 'zzzz'. (so the elements with class with p1 will disappear)
+
+=> //How to use the specific interfacae
+
+using System;  
+interface IA
+{
+	void Hello();
+}
+interface IB
+{
+	void Hello();
+}
+class Test : IA, IB
+{
+	void IA.Hello()
+	{
+		Console.WriteLine("Hello to all-A");
+	}
+	void IB.Hello()
+	{
+		Console.WriteLine("Hello to all-B");
+	}
+}
+public class interfacetest
+{
+	public static void Main()
+	{
+		IA Obj1 = new Test();
+		Obj1.Hello();
+		IB Obj2 = new Test();
+		Obj2.Hello();
+	}
+}
+
+public class interfacetest
+{
+	public static void Main()
+	{
+		Test Obj1 = new Test();
+		Obj1.Hello();
+	}
+}
+
+=>
+string s = "abcdghjcdjhjbcdiujcdmnjabcd"
+replace cd with "__" but if its "bcd" leave as it is
+
+Output should be "abcdghj__jhjbcdiuj__mnjabcd"
+
+=>
+
+Puzzle -
+
+	- Just calculate, A clock is started at noon. AT 5:10 pm, the hour hand has turned through how many degree, applying Maths(no need to write code)  
+	---- 155
+
+	- Just calculate what is the degree between hour and minute hand at 3:15 pm, applying Maths(no need to write code) 
+	--------------------------------- 7.5
+Web API -
+	use of JWT, how it works
+
+
+React - https://stackblitz.com/edit/react-ts-htujr8?file=App.tsx
